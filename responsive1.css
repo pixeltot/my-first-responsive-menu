@@ -1,0 +1,86 @@
+<style>
+*, a{
+box-sizing: border-box;
+transition:color 2s;
+-moz-transition:color 2s;
+}
+
+
+
+body, h1, h2, h3, h4, a, p {
+    border: 0 none;
+    font-family: Arial;
+    font-size: 1.2em;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+h1 {
+    border-bottom: 1px dotted;
+    font-size: 1.9em;
+    margin: 0;
+    padding: 50px 0;
+    text-align: center;
+}
+h2{
+ text-align: center;
+padding:10px;
+}
+p {padding:10px;}
+
+a:link {
+    color: gray;
+}
+a:visited{color:pink:}
+a:hover{color:black;}
+
+#wrapper {
+    margin: 0 auto;
+    max-width: 900px;
+	min-width: 100px;
+	padding:10px;
+}
+
+.boxes {
+    border-bottom: 1px dotted gray;
+    border-top: 1px dotted gray;
+    display: inline-block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6  a{
+    float: left;
+    text-align: center;
+    width: 16.66%;
+}
+
+
+@media (min-width:0px) and (max-width:400px){
+body{font-size:.9em;}
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6  a{
+    float: left;
+    text-align: center;
+    width: 100%;
+}
+.boxes a{
+background:orange;
+}
+}
+
+@media (min-width:400px) and (max-width:900px){
+body{font-size:1em;}
+.box1 a, .box2 a, .box3 a, .box4 a, .box5 a, .box6 a {
+    float: left;
+    text-align: center;
+    width: 33.33%;
+}
+
+.boxes a{
+background:blue;
+}
+}
+
+</style>
