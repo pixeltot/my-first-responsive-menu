@@ -1,11 +1,9 @@
 <style>
-*, a{
+*{
 box-sizing: border-box;
-transition:color 2s;
--moz-transition:color 2s;
 }
 
-
+body{transition:font-size .5s;}
 
 body, h1, h2, h3, h4, a, p {
     border: 0 none;
@@ -19,10 +17,11 @@ body, h1, h2, h3, h4, a, p {
 
 h1 {
     border-bottom: 1px dotted;
-    font-size: 1.9em;
+    font-size: 2em;
     margin: 0;
     padding: 50px 0;
     text-align: center;
+	letter-spacing:-2px;
 }
 h2{
  text-align: center;
@@ -33,12 +32,12 @@ p {padding:10px;}
 a:link {
     color: gray;
 }
-a:visited{color:pink:}
+a:visited{color:gray;}
 a:hover{color:black;}
 
 #wrapper {
     margin: 0 auto;
-    max-width: 900px;
+    max-width: 1000px;
 	min-width: 100px;
 	padding:10px;
 }
@@ -55,6 +54,7 @@ a:hover{color:black;}
     float: left;
     text-align: center;
     width: 16.66%;
+	padding:10px 0;
 }
 
 
@@ -65,9 +65,7 @@ body{font-size:.9em;}
     text-align: center;
     width: 100%;
 }
-.boxes a{
-background:orange;
-}
+
 }
 
 @media (min-width:400px) and (max-width:900px){
@@ -78,9 +76,6 @@ body{font-size:1em;}
     width: 33.33%;
 }
 
-.boxes a{
-background:blue;
-}
 }
 
 </style>
